@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 80px;
+    
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 30px;
+}
+
+.row{
+    margin: 15px;
+    display: block;
+}
+
+fieldset{
+    margin: 15px;
+}
+
+table thead th{
+    background-color: black;
+    color: white;
+   }
+
+   table tfoot td{
+    background-color: aqua;
+    text-align: center;
+   }
+
+   table tbody tr:nth-child(even) td{
+    background-color: aquamarine;
+   }
+   
+   table tbody tr:hover td{
+    background-color: blue;
+   }
+
+   ul{
+    margin: 15px;
+   }
+
+   a{
+    margin: 5px;
+   }
+
+   li{
+    margin: 5px;
+    font-size: 15px;
+    display: inline-block;
+   }
+   
+   iframe{
+    margin: 15px;
+   }
